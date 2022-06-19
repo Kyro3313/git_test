@@ -1,0 +1,29 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    padding: 30px;
+    font-size: 50px;
+}
+.list{
+    font-size: 30px;
+    
+}
+a{
+    
+    text-decoration: none;
+}
+
+li{
+    margin: 8px;
+    list-style: none;
+}
