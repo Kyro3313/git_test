@@ -1,29 +1,47 @@
 *{
    margin: 0;
    padding: 0;
-
 }
 
-body{
+@font-face {
+    font-family: "ViceCitySans";
+    src: url("./font/ViceCitySans.otf") format("opentype");
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    width: auto;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
-h1{
+
+.text{
+    font-family: "ViceCitySans";
+    color: white;
     padding: 30px;
-    font-size: 50px;
+    font-size: 80px;
 }
+
 .list{
-    font-size: 30px;
-    
+    display: flex;
+
 }
+
 a{
-    
+    color: white;
+    width: inherit;
+    height: inherit;
     text-decoration: none;
 }
 
 li{
-    margin: 8px;
+    background-color: white;
+    padding: 88px;
+    width: 275px;
+    height: 32px;
     list-style: none;
+    margin: 84px;
 }
